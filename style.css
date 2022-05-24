@@ -1,3 +1,35 @@
-*{
-    
+body{
+    display: flex;
+    flex-direction: column;
 }
+
+.sub.one{
+    background-color: #1f2937;
+}
+
+.sub.three{
+    background-color: grey;
+}
+
+.footer{
+    background-color: #1f2937;
+}
+
+
+img {
+    width:100px;
+    height:100px;
+    
+  }
+
+  ul{
+    list-style-type:none;
+  }
+
+  li{
+    display: inline-block;
+  }
+  
+  a{
+    text-decoration: none;
+  }
