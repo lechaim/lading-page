@@ -25,6 +25,35 @@ body{
 
 }
 
+.sub .four{
+    margin: 100px;
+    
+
+}
+
+.ad{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 575px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.addLeft{
+    margin: 0 0; /* arreglar esto */
+}
+
+.addLeft h1{
+    font-size: large;
+}
+
+.addLeft p{
+    font-size: small;
+}
+
 .imag{
     width: 100px;
     height: 100px;
