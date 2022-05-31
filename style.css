@@ -1,10 +1,18 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.sub{
+    padding: 50px 75px;
 }
 
 .header{
     display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 565px;
 }
 
 .sub.one{
@@ -12,21 +20,37 @@ body{
     flex-direction: column;
     /*background-color: #1f2937;*/
     background-color: aqua;
+    
+}
+
+.sub.one button{
+    background-color: #3382f6;
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
 }
 
 .center{
     display: flex;
+    gap: 300px;
+    justify-content: center;
 }
 
 .sub .two{
     display: flex;
     justify-content: center;
     height: 200px;
+    
+
+}
+
+.sub.two h1{
+    text-align: center;
 
 }
 
 .sub .four{
-    margin: 100px;
+    
     
 
 }
@@ -74,6 +98,7 @@ body{
 
 .footer{
     /*background-color: #1f2937;*/
+    text-align: center;
     background-color: aqua;
 }
 
