@@ -9,10 +9,19 @@ body{
 }
 
 .header{
+    padding: 0 75px;
+    margin: 0;
+    color:white;
+    font-size: 24px;
+    background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    
     justify-content: center;
-    gap: 565px;
+    gap: 440px;
+}
+
+.header ul li{
+    margin: 0 15px;
 }
 
 .sub.one{
@@ -25,7 +34,6 @@ body{
 
 .sub.one button{
     background-color: #3382f6;
-    border: none;
     padding: 8px;
     border-radius: 12px;
 }
@@ -34,6 +42,14 @@ body{
     display: flex;
     gap: 300px;
     justify-content: center;
+}
+
+.sub.one .center img{
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 900px;
+    
 }
 
 .sub .two{
@@ -49,21 +65,27 @@ body{
 
 }
 
-.sub .four{
-    
-    
 
-}
 
 .ad{
     display: flex;
-    background-color: red;
+    border-radius: 25px;
+    background-color: #3882f6;
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 575px;
     margin: 0 auto;
     gap: 50px;
+}
+
+.sub.four button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+    border-color: white;
+
 }
 
 .addLeft{
@@ -86,24 +108,28 @@ body{
 }
 
 .sub .two p{
-    text-align: center;
+    text-align: justify;
+    display: block;
+    width:100px;
+
 
 }
 
 .sub.three{
     background-color: grey;
     text-align: center;
-    
 }
+
+.sub.three p{
+    font-size:x-large;   
+}
+
 
 .footer{
     /*background-color: #1f2937;*/
     text-align: center;
     background-color: aqua;
 }
-
-
-
 
 img {
     width:100px;
