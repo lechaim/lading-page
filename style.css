@@ -4,6 +4,20 @@ body{
     margin: 0;
 }
 
+ul{
+    list-style-type:none;
+  }
+
+li{
+    display: inline-block;
+  }
+  
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
 .sub{
     padding: 50px 75px;
 }
@@ -20,6 +34,11 @@ body{
     gap: 440px;
 }
 
+.header p{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .header ul li{
     margin: 0 15px;
 }
@@ -27,41 +46,56 @@ body{
 .sub.one{
     display: flex;
     flex-direction: column;
-    /*background-color: #1f2937;*/
-    background-color: aqua;
-    
+    background-color: #1f2937;
+}
+
+.sub.one .center .left{
+    width: 20%;
+    color: white;
 }
 
 .sub.one button{
     background-color: #3382f6;
     padding: 8px;
-    border-radius: 12px;
+    border-radius: 8px;
+    color: white;
+    
 }
 
 .center{
     display: flex;
-    gap: 300px;
+    gap: 100px;
     justify-content: center;
 }
 
-.sub.one .center img{
-    height: auto;
-    width: auto;
-    max-height: 100%;
-    max-width: 900px;
+.sub.one .center .placeholder{
+    background-color: grey;
+    height: 23vh;
+    width: 450px;
+    text-align: center;
+    line-height: 250px;
+    color: white;
     
 }
+
+
 
 .sub .two{
     display: flex;
     justify-content: center;
     height: 200px;
-    
-
 }
+
+.sub.two .two.images img {
+    width:100px;
+    height:100px;
+    background-color: grey;
+    
+  }
 
 .sub.two h1{
     text-align: center;
+    margin-bottom: 15px;
 
 }
 
@@ -79,12 +113,19 @@ body{
     gap: 50px;
 }
 
+.sub.four .ad{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .sub.four button{
     background-color: #3882f6;
     color: white;
     padding: 8px;
-    border-radius: 25px;
+    border-radius: 8px;
     border-color: white;
+    
 
 }
 
@@ -124,27 +165,18 @@ body{
     font-size:x-large;   
 }
 
-
-.footer{
-    /*background-color: #1f2937;*/
-    text-align: center;
-    background-color: aqua;
+.sub.four .ad .addLeft p, h1{
+    margin: 0; 
 }
 
-img {
-    width:100px;
-    height:100px;
-    
-  }
 
-  ul{
-    list-style-type:none;
-  }
+.footer{
+    /**/
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+}
 
-  li{
-    display: inline-block;
-  }
-  
-  a{
-    text-decoration: none;
-  }
+
+
